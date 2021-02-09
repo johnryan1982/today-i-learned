@@ -10,7 +10,6 @@ import { getStoredState } from './lib/store-state.js';
 // regular components
 import Container from './components/container.js';
 import Header from './components/header.js';
-import SuccessMsg from './components/successMsg.js';
 
 // route components
 import Home from './components/home.js';
