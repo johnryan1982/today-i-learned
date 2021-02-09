@@ -26,7 +26,6 @@ const App = () => (
       </Helmet>
       <Container>
         <Header />
-        {!!process.env.REACT_APP_CTF_CMA_TOKEN && <SuccessMsg />}
         <Switch>
           <Route
             exact
